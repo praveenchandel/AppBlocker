@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_marginStart="30dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"/>
+
+        <TextView
+            android:id="@+id/app_time_usage"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:text="time"
+           android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/package_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:maxLines="1"-->
+<!--        android:paddingEnd="6dip"-->
+<!--        android:paddingStart="12dip"-->
+<!--        android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/last_time_used"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:maxLines="1"-->
+<!--        android:paddingEnd="6dip"-->
+<!--        android:paddingStart="12dip"-->
+<!--        android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/usage_time"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:maxLines="1"-->
+<!--        android:paddingEnd="6dip"-->
+<!--        android:paddingStart="12dip"-->
+<!--        android:textAppearance="?android:attr/textAppearanceMedium" />-->
+<!--    -->
+
+
+</androidx.cardview.widget.CardView>

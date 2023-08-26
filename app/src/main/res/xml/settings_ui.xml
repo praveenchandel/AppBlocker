@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/Settings_title1"
+        android:textSize="40px" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="cb1"
+        android:summary="@string/Settings_item1_D"
+        android:title="@string/Settings_item1_T" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="cb2"
+        android:summary="@string/Settings_item2_D"
+        android:title="@string/Settings_item2_T" />
+
+    <PreferenceCategory android:layout="@layout/divider"></PreferenceCategory>
+
+
+    <PreferenceCategory android:layout="@layout/divider"></PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/Settings_title4"
+        android:textSize="40px" />
+
+    <Preference
+        android:summary="@string/Settings_item5_D"
+        android:title="@string/Settings_item5_T"
+        android:key="help" />
+
+
+    <PreferenceCategory android:layout="@layout/divider"></PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/Settings_title5"
+        android:textSize="40px" />
+
+    <Preference
+        android:summary="@string/Settings_item7_D"
+        android:title="@string/Settings_item7_T"
+        android:key="libraries" />
+
+
+</PreferenceScreen>
